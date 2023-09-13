@@ -13,6 +13,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.7
 
 dev_dependencies:
   flutter_test:
@@ -28,15 +29,14 @@ flutter:
     - assets/images/exposure/
     - assets/icons/
 
+  
   fonts:
-    - family: Heebo
+    - family: DMSans
       fonts:
-        - asset: assets/Fonts/Heebo/Heebo-Black.ttf
-        - asset: assets/Fonts/Heebo/Heebo-Bold.ttf
-        - asset: assets/Fonts/Heebo/Heebo-ExtraBold.ttf
-        - asset: assets/Fonts/Heebo/Heebo-ExtraLight.ttf
-        - asset: assets/Fonts/Heebo/Heebo-Light.ttf
-        - asset: assets/Fonts/Heebo/Heebo-Medium.ttf
-        - asset: assets/Fonts/Heebo/Heebo-Regular.ttf
-        - asset: assets/Fonts/Heebo/Heebo-SemiBold.ttf
-        - asset: assets/Fonts/Heebo/Heebo-Thin.ttf
+        - asset: assets/Fonts/DM sans/DMSans-Bold.ttf
+        - asset: assets/Fonts/DM sans/DMSans-BoldItalic.ttf
+        - asset: assets/Fonts/DM sans/DMSans-Italic.ttf
+        - asset: assets/Fonts/DM sans/DMSans-Medium.ttf
+        - asset: assets/Fonts/DM sans/DMSans-MediumItalic.ttf
+        - asset: assets/Fonts/DM sans/DMSans-Regular.ttf
+  

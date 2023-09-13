@@ -26,6 +26,16 @@ static  double getProportionateScreenWidth(double inputWidth) {
   // 375 is the layout width that designer use
   return (inputWidth / 375.0) * screenWidth;
 }
+
+ static double getFontSize(double px) {
+  var height = getProportionateScreenHeight(px);
+  var width = getProportionateScreenWidth(px);
+  if (height < width) {
+    return height.toInt().toDouble();
+  } else {
+    return width.toInt().toDouble();
+  }
+}
 }
 
 
