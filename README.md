@@ -1,20 +1,24 @@
-<<<<<<< HEAD
-# fashion_shop
+# UI Design of Fashion App
 
-A new Flutter project.
+### Get Started
 
-## Getting Started
+```shell
+git clone https://github.com/bernadinkele/fashion-app.git
+flutter clean
+flutter packages get
+flutter run
+```
 
-This project is a starting point for a Flutter application.
+### App Preview
 
-A few resources to get you started if this is your first Flutter project:
+|              Home             |             Popular Fashion Screen           |             Category Screen           |
+| :----------------------------------: | :----------------------------------: | :----------------------------------: |
+| <img src="https://github.com/bernadinkele/fashion-app/blob/main/screenshoots/1.png" width="350"> | <img src="https://github.com/bernadinkele/fashion-app/blob/main/screenshoots/2.png" width="350"> | <img src="https://github.com/bernadinkele/fashion-app/blob/main/screenshoots/3.png" width="350"> |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Fashion-Shop-App
-Fashion Shop Project in Flutter is the perfect companion for all fashion lovers looking to stay on top of the latest trends.
+### ⚡️ My Social Medias
+
+
+LinkedIn: [@kelebernadin](https://www.linkedin.com/in/bernadin-kele-b7466a246/)
+
+GitHub: [@kelebernadin](https://github.com/bernadinkele)
