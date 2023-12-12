@@ -17,5 +17,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 =======
 # Fashion-Shop-App
-Fashion Shop Project in Flutter is the perfect companion for all fashion lovers looking to stay on top of the latest trends. 
-
+Fashion Shop Project in Flutter is the perfect companion for all fashion lovers looking to stay on top of the latest trends.
