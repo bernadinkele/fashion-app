@@ -12,6 +12,7 @@ class CategoryItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     SizeConfig.init(context);
     return Container(
       height: SizeConfig.getProportionateScreenHeight(130),
       width: SizeConfig.getProportionateScreenWidth(110),

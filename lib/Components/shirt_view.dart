@@ -13,6 +13,7 @@ class ShirtView extends StatefulWidget {
 class _ShirtViewState extends State<ShirtView> {
   @override
   Widget build(BuildContext context) {
+     SizeConfig.init(context);
     return SingleChildScrollView(
       child: Column(
         children: [

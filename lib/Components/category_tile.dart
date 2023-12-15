@@ -11,6 +11,7 @@ class CategoryCardTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     SizeConfig.init(context);
     return Padding(
       padding:
           EdgeInsets.only(bottom: SizeConfig.getProportionateScreenHeight(12)),

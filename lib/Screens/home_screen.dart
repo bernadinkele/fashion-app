@@ -18,6 +18,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
+     SizeConfig.init(context);
     return SafeArea(
       child: Scaffold(
         appBar:  buildAppbar(),

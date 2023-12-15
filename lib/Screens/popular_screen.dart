@@ -17,6 +17,7 @@ class _PopularScreenState extends State<PopularScreen> {
  
   @override
   Widget build(BuildContext context) {
+     SizeConfig.init(context);
     return DefaultTabController(
       length: 6,
       child: Scaffold(

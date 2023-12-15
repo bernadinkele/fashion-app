@@ -15,6 +15,7 @@ class _ProductItemState extends State<ProductItem> {
   bool isLoved = false;
   @override
   Widget build(BuildContext context) {
+     SizeConfig.init(context);
     return Column(
       children: [
         Container(
