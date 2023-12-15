@@ -1,19 +1,19 @@
-import 'package:fashion_shop/Components/shirt_view.dart';
+import 'package:fashion_shop/Screens/shirt_view.dart';
 import 'package:fashion_shop/common/commons_function.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:fashion_shop/Utils/utils.dart';
-class PopularScreen extends StatefulWidget {
+class PopularView extends StatefulWidget {
   static route() => MaterialPageRoute(
-        builder: (context) => const PopularScreen(),
+        builder: (context) => const PopularView(),
       );
-  const PopularScreen({super.key});
+  const PopularView({super.key});
 
   @override
-  State<PopularScreen> createState() => _PopularScreenState();
+  State<PopularView> createState() => _PopularViewState();
 }
 
-class _PopularScreenState extends State<PopularScreen> {
+class _PopularViewState extends State<PopularView> {
  
   @override
   Widget build(BuildContext context) {

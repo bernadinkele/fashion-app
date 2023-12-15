@@ -1,4 +1,4 @@
-import 'package:fashion_shop/Components/components.dart';
+import 'package:fashion_shop/Screens/components.dart';
 import 'package:fashion_shop/Models/model.dart';
 import 'package:fashion_shop/Utils/utils.dart';
 import 'package:flutter/material.dart';

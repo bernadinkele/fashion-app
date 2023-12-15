@@ -1,7 +1,7 @@
 import 'package:fashion_shop/Utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'Screens/home_screen.dart';
+import 'Views/home_view.dart';
 
 void main() {
    WidgetsFlutterBinding.ensureInitialized();
@@ -23,6 +23,6 @@ class MyApp extends StatelessWidget {
           fontFamily: "DMSans",
           useMaterial3: true,
         ),
-        home: const HomeScreen());
+        home: const HomeView());
   }
 }

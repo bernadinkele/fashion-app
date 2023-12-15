@@ -1,26 +1,25 @@
-import 'package:fashion_shop/Components/category_item.dart';
-import 'package:fashion_shop/Components/product_item.dart';
-import 'package:fashion_shop/Components/sale_card.dart';
+import 'package:fashion_shop/Screens/category_item.dart';
+import 'package:fashion_shop/Screens/product_item.dart';
+import 'package:fashion_shop/Screens/sale_card.dart';
 import 'package:fashion_shop/Models/category_model.dart';
 import 'package:fashion_shop/Models/product_model.dart';
-import 'package:fashion_shop/Screens/category_screen.dart';
+import 'package:fashion_shop/Views/view_export.dart';
 import 'package:fashion_shop/common/common.dart';
 import 'package:flutter/material.dart';
 import 'package:fashion_shop/Utils/utils.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class HomeView extends StatefulWidget {
+  const HomeView({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<HomeView> createState() => _HomeViewState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
      SizeConfig.init(context);
-    return SafeArea(
-      child: Scaffold(
+    return Scaffold(
         appBar:  buildAppbar(),
         body: Padding(
           padding: EdgeInsets.symmetric(
@@ -52,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   TextButton(
                       onPressed: () =>
-                          Navigator.push(context, CategoriesScreen.route()),
+                          Navigator.push(context, CategoriesView.route()),
                       child: Text(
                         "See More",
                         style: TextStyle(
@@ -74,7 +73,6 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
         ),
-      ),
-    );
+      );
   }
 }

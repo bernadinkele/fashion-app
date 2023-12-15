@@ -1,19 +1,19 @@
-import 'package:fashion_shop/Components/category_tile.dart';
+import 'package:fashion_shop/Screens/category_tile.dart';
 import 'package:fashion_shop/Models/category_model.dart';
 import 'package:flutter/material.dart';
 import 'package:fashion_shop/Utils/utils.dart';
 
-class CategoriesScreen extends StatefulWidget {
+class CategoriesView extends StatefulWidget {
   static route() => MaterialPageRoute(
-        builder: (context) => const CategoriesScreen(),
+        builder: (context) => const CategoriesView(),
       );
-  const CategoriesScreen({super.key});
+  const CategoriesView({super.key});
 
   @override
-  State<CategoriesScreen> createState() => _CategoriesScreenState();
+  State<CategoriesView> createState() => _CategoriesViewState();
 }
 
-class _CategoriesScreenState extends State<CategoriesScreen> {
+class _CategoriesViewState extends State<CategoriesView> {
   @override
   Widget build(BuildContext context) {
      SizeConfig.init(context);

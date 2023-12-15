@@ -1,4 +1,4 @@
-import 'package:fashion_shop/Screens/screen.dart';
+import 'package:fashion_shop/Views/view_export.dart';
 import 'package:fashion_shop/Utils/utils.dart';
 import 'package:flutter/material.dart';
 
@@ -59,7 +59,7 @@ class SaleCard extends StatelessWidget {
                                         SizeConfig.getProportionateScreenHeight(
                                             8))))),
                         onPressed: () =>
-                            Navigator.push(context, PopularScreen.route()),
+                            Navigator.push(context, PopularView.route()),
                         child: Text(
                           "Shop Now",
                           style: TextStyle(color: Pallete.blueColor,fontSize: SizeConfig.getFontSize(16)),
